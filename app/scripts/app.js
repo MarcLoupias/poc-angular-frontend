@@ -5,7 +5,8 @@ angular.module('pocAngularFrontendApp', [
         'ngResource',
         'ngSanitize',
         'ngRoute',
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'ngGrid'
     ])
     .config(function ($routeProvider) {
         $routeProvider

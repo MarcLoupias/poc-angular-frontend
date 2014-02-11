@@ -72,8 +72,8 @@
     <file path="/user-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391010291118" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796514480" ignored="false" />
     <file path="/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796510322" ignored="false" />
-    <file path="/main.css" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391015233764" ignored="false" />
-    <file path="/bower.json" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391026398188" ignored="false" />
+    <file path="/main.css" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392103771695" ignored="false" />
+    <file path="/bower.json" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392103351620" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/models/Cinema.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796935462" ignored="false" />
     <file path="/Cinema.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391795208314" ignored="false" />
     <file path="/search-cinema-by-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798257921" ignored="false" />
@@ -157,7 +157,8 @@
     <file path="/DeleteServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028659189" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/get/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
-    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392102547206" ignored="false" />
+    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392106326400" ignored="false" />
+    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392110195524" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,29 +219,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="47" selection-start="4102" selection-end="4102" vertical-scroll-proportion="-11.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crud-county.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="crud-county.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="177" selection-end="177" vertical-scroll-proportion="0.17088607">
+            <state line="18" column="38" selection-start="140" selection-end="788" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-county.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/search-county.html">
+      <file leaf-file-name="crud-county.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="515" selection-end="532" vertical-scroll-proportion="-9.375">
+            <state line="31" column="79" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.57125306">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ng-grid-2.0.7.debug.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3516" column="44" selection-start="141843" selection-end="141843" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,10 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/.jshintrc" />
-        <option value="$PROJECT_DIR$/test/.jshintrc" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/app-version.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/app-version-service.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema.html" />
@@ -269,8 +276,12 @@
         <option value="$PROJECT_DIR$/app/scripts/services/cinema-service.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema-by-county.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema-by-county.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/views/crud-county.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/crud-county.js" />
       </list>
     </option>
   </component>
@@ -415,6 +426,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-grid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -656,45 +707,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/runner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="0.12899263" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-county.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="91" selection-start="192" selection-end="192" vertical-scroll-proportion="0.11056511" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/county-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="494" selection-end="801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/cinema-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="758" selection-end="758" vertical-scroll-proportion="0.37926674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="567" selection-end="567" vertical-scroll-proportion="0.34134007">
@@ -737,23 +749,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/views/search-county.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="47" selection-start="4102" selection-end="4102" vertical-scroll-proportion="-11.875">
+        <state line="28" column="66" selection-start="626" selection-end="626" vertical-scroll-proportion="0.3607595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search-county.html">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="515" selection-end="532" vertical-scroll-proportion="-9.375">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="549" selection-end="549" vertical-scroll-proportion="0.39873418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="36" selection-start="8307" selection-end="8307" vertical-scroll-proportion="0.47876447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="121" selection-end="121" vertical-scroll-proportion="0.09213759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="343" selection-end="343" vertical-scroll-proportion="0.38697788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-county.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="569" selection-end="569" vertical-scroll-proportion="0.33169532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3516" column="44" selection-start="141843" selection-end="141843" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="177" selection-end="177" vertical-scroll-proportion="0.17088607">
+        <state line="18" column="38" selection-start="140" selection-end="788" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="79" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.57125306">
           <folding />
         </state>
       </provider>
