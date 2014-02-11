@@ -1,0 +1,54 @@
+<div class="container" >
+
+    <div class="row">
+        <h3>Liste des Cinémas</h3>
+    </div>
+
+    <div class="row"> <hr/> </div>
+
+    <!--<div class="row">
+
+        <form class="form-horizontal" role="form">
+
+            <div class="form-group">
+                <div class="col-xs-offset-10 col-xs-2">
+                    <button ng-click="search()" class="btn btn-default">Rechercher</button>
+                </div>
+            </div>
+        </form>
+
+    </div>-->
+
+    <div class="row">
+
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>Cinéma</th>
+                <th>Nb. sièges</th>
+                <th>Nb. salles</th>
+                <th>Département</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr ng-show="(cinemas == 0)"><td colspan="4"> Pas de résultat </td></tr>
+            <tr ng-repeat="cinema in cinemas">
+                <td>{{cinema.name}}</td><td>{{cinema.seat}}</td><td>{{cinema.screen}}</td><td>{{cinema.county.name}}</td>
+            </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="row" ng-hide="totalItems == 0">
+
+        <pagination class="pagination-sm" direction-links="true" boundary-links="true" max-size="10"
+                    previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"
+                    ng-click="search()" total-items="totalItems" page="currentPage" items-per-page="itemsPerPage">
+        </pagination>
+
+    </div>
+
+</div>

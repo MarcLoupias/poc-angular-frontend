@@ -1,0 +1,356 @@
+
+<div class="jumbotron">
+    <div class="container" >
+        <p>
+            Cette application web liste les cinémas français actifs pour l'année 2013.
+        </p>
+
+        <p>
+            Elle permet de faire des recherches en fonction différents critères (nombre de sièges, nombre de places
+            vendues, départements, ...)
+        </p>
+
+        <p>
+            Les données proviennent
+            <a href="http://www.data.gouv.fr/fr/dataset/liste-des-etablissements-cinematographiques-actifs">du site d'open-data</a>
+            de l'état français.
+        </p>
+    </div>
+</div>
+
+<div class="container" >
+    <div class="row">
+
+        <h2>Technologies utilisées</h2>
+
+        <div class="col-md-4">
+
+            <h3>Frontend</h3>
+
+            <accordion close-others="true">
+
+                <accordion-group is-open="yeomanisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="yeomanisopen" src="../images/icon-yo-mini.ico" alt="Yeoman" class="img-rounded">
+                        <i>Yeoman - Web scaffolding tool</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': yeomanisopen, 'glyphicon-chevron-right': !yeomanisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-yo.gif" alt="Yeoman" class="img-rounded pull-right">
+
+                    <blockquote><p>The web's scaffolding tool for modern webapps</p></blockquote>
+
+                    <i class="">
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                        The web's scaffolding tool for modern webapps The web's scaffolding tool for modern webapps
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="gruntisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="gruntisopen" src="../images/icon-grunt-mini.ico" alt="Grunt" class="img-rounded">
+                        <i>Grunt - JavaScript task runner</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': gruntisopen, 'glyphicon-chevron-right': !gruntisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-grunt.gif" alt="Grunt" class="img-rounded pull-right">
+
+                    <blockquote><p>The JavaScript Task Runner</p></blockquote>
+
+                    <i class="">
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                        The JavaScript Task Runner The JavaScript Task Runner The JavaScript Task Runner
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="bowerisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="bowerisopen" src="../images/icon-bower-mini.gif" alt="Bower" class="img-rounded">
+                        <i>Bower - Web package manager</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': bowerisopen, 'glyphicon-chevron-right': !bowerisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-bower.gif" alt="Bower" class="img-rounded pull-right">
+
+                    <blockquote><p>A package manager for the web</p></blockquote>
+
+                    <i class="">
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                        A package manager for the web A package manager for the web A package manager for the web
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="bootstrapisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="bootstrapisopen" src="../images/icon-bootstrap-mini.png" alt="Bootstrap" class="img-rounded">
+                        <i>Bootstrap - HTML/CSS framework</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': bootstrapisopen, 'glyphicon-chevron-right': !bootstrapisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-bootstrap-mini.png" alt="Bootstrap" class="img-rounded pull-right">
+
+                    <blockquote>
+                        <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development</p>
+                    </blockquote>
+
+                    <i class="">
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                        Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="angularisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="angularisopen" src="../images/icon-angular-mini.ico" alt="Angular" class="img-rounded">
+                        <i>Angular - JavaScript framework</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': angularisopen, 'glyphicon-chevron-right': !angularisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-angular-large.png" alt="Angular" class="img-rounded pull-right">
+
+                    <blockquote><p>HTML enhanced for web apps!</p></blockquote>
+
+                    <i class="">
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                        HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps! HTML enhanced for web apps!
+                    </i>
+
+                </accordion-group>
+
+            </accordion>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <h3>Backend</h3>
+
+            <accordion close-others="true">
+
+                <accordion-group is-open="mysqlisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="mysqlisopen" src="../images/icon-mysql-mini.ico" alt="MySQL" class="img-rounded">
+                        <i>MySQL - Relational database</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': mysqlisopen, 'glyphicon-chevron-right': !mysqlisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-mysql.png" alt="MySQL" class="img-rounded pull-right">
+
+                    <blockquote><p>The world's most popular open source database</p></blockquote>
+
+                    <i class="">
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                        The world's most popular open source database
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="playisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="playisopen" src="../images/icon-play-mini.png" alt="Play!" class="img-rounded">
+                        <i>Play! - Java/Scala framework</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': playisopen, 'glyphicon-chevron-right': !playisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-play.png" alt="Play!" class="img-rounded pull-right">
+
+                    <blockquote><p>The High Velocity Web Framework For Java and Scala</p></blockquote>
+
+                    <i class="">
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                        The High Velocity Web Framework For Java and Scala
+                    </i>
+
+                </accordion-group>
+
+            </accordion>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <h3>Outils divers</h3>
+
+            <accordion close-others="true">
+
+                <accordion-group is-open="gitisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="gitisopen" src="../images/icon-git-mini.ico" alt="Git" class="img-rounded">
+                        <i>Git - Distributed revision control & SCM</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': gitisopen, 'glyphicon-chevron-right': !gitisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-git.png" alt="Git" class="img-rounded pull-right">
+
+                    <blockquote><p>--fast-version-control</p></blockquote>
+
+                    <i class="">
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                        --fast-version-control --fast-version-control --fast-version-control --fast-version-control
+                    </i>
+
+                </accordion-group>
+
+                <accordion-group is-open="intellijisopen">
+                    <accordion-heading>
+
+                        <img ng-hide="intellijisopen" src="../images/icon-intellij-mini.ico" alt="IntelliJ IDEA" class="img-rounded">
+                        <i>IntelliJ IDEA - IDE</i>
+
+                        <i class="pull-right glyphicon"
+                           ng-class="{'glyphicon-chevron-down': intellijisopen, 'glyphicon-chevron-right': !intellijisopen}">
+                        </i>
+                    </accordion-heading>
+
+                    <img src="../images/icon-intellij.png" alt="IntelliJ IDEA" class="img-rounded pull-right">
+
+                    <blockquote><p>Work Miracles in Java and Beyond</p></blockquote>
+
+                    <i class="">
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                        Work Miracles in Java and Beyond Work Miracles in Java and Beyond Work Miracles in Java and Beyond
+                    </i>
+
+                </accordion-group>
+
+            </accordion>
+
+        </div>
+
+    </div>
+</div>

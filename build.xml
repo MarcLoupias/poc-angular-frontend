@@ -1,0 +1,18 @@
+<project name="poc-angular-frontend Build Tools" basedir=".">
+    <description>
+        poc-angular-frontend project tools file
+    </description>
+
+    <target name="show-config" description="Show env config in the Ant context">
+        <echoproperties/>
+        <echo>env.HOME: ${env.HOME}</echo>
+        <echo>env.USERNAME: ${env.USERNAME}</echo>
+    </target>
+
+    <target name="grunt-serve" description="Run dev webserver">
+        <exec executable="grunt">
+            <arg value="serve"/>
+        </exec>
+    </target>
+
+</project>

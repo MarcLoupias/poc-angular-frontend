@@ -1,0 +1,49 @@
+<div class="container" >
+
+    <div ng-if="!userService.logged" class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Version</h3>
+        </div>
+
+        <div class="panel-body">
+            <br/>
+            Nom : {{name}}
+            <br/>
+            Version : {{version}}
+            <br/>
+        </div>
+    </div>
+
+    <div ng-if="userService.logged" class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Version-full</h3>
+        </div>
+
+        <div class="panel-body">
+            <br/>
+            Nom : {{name}}
+            <br/>
+            Version : {{version}}
+            <br/>
+            Play framework version : {{playVersion}}
+            <br/>
+            Java version : {{javaVersion}}
+            <br/>
+            JVM name : {{jvmName}}
+            <br/>
+            JVM version : {{jvmVersion}}
+            <br/>
+            OS timezone : {{osTimezone}}
+            <br/>
+            OS country : {{osCountry}}
+            <br/>
+            OS arch : {{osArch}}
+            <br/>
+            OS name : {{osName}}
+            <br/>
+            OS version : {{osVersion}}
+            <br/>
+        </div>
+    </div>
+
+</div>
