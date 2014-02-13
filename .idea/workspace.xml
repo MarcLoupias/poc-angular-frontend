@@ -158,7 +158,7 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/get/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197547831" ignored="false" />
-    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392232980769" ignored="false" />
+    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392282455575" ignored="false" />
     <file path="/app.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191554081" ignored="false" />
     <file path="/error-alert.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392132346940" ignored="false" />
     <file path="/angular-ui-alert-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135095245" ignored="false" />
@@ -247,7 +247,7 @@
       <file leaf-file-name="crud-county.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="25" selection-start="2972" selection-end="2972" vertical-scroll-proportion="0.7103621">
+            <state line="40" column="8" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.29837704">
               <folding />
             </state>
           </provider>
@@ -622,7 +622,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24593796" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24593796" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -795,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="25" selection-start="2972" selection-end="2972" vertical-scroll-proportion="0.7103621">
+        <state line="40" column="8" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.29837704">
           <folding />
         </state>
       </provider>

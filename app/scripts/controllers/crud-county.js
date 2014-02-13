@@ -37,6 +37,8 @@ angular.module('pocAngularFrontendApp')
 
         $scope.oldEntity = undefined;
 
+        var cellName = '<input ng-class="\'colt\' + col.index" ng-input="COL_FIELD" ng-model="COL_FIELD" />';
+
         $scope.gridOptionsCrudCounty = {
             data: 'myData',
             multiSelect: false,
@@ -46,7 +48,10 @@ angular.module('pocAngularFrontendApp')
             columnDefs: [
                 {field:'id', displayName:'Id', visible: false},
                 {field:'code', displayName:'Code', enableCellEdit:true},
-                {field:'name', displayName:'Name', enableCellEdit:true}
+                {
+                    field:'name', displayName:'Name', enableCellEdit:true,
+                    editableCellTemplate: cellName
+                }
             ],
             enablePaging: true,
             showFooter: true,
