@@ -11,10 +11,8 @@ angular.module('pocAngularFrontendApp')
                     password: _pwd
                 };
             },
-            login: function (loginAttempt, successCallbackFn, errorCallbackFn) {
-                return $http.post(backendUrlService + '/users/login', loginAttempt, {withCredentials: true})
-                    .success(successCallbackFn)
-                    .error(errorCallbackFn);
+            login: function (loginAttempt) {
+                return $http.post(backendUrlService + '/users/login', loginAttempt, {withCredentials: true});
             }
         };
     });

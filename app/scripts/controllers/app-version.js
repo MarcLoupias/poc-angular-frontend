@@ -4,37 +4,44 @@ angular.module('pocAngularFrontendApp')
     .controller('AppVersionCtrl', function ($scope, AppVersionService, userService) {
 
         $scope.userService = userService;
+        $scope.pending = false;
 
         if( $scope.userService.logged === true ) {
 
-            AppVersionService.getVersionFull(
-                function (data) {
-                    $scope.name = data.appName;
-                    $scope.version = data.appVersion;
-                    $scope.playVersion = data.playVersion;
-                    $scope.javaVersion = data.javaVersion;
-                    $scope.jvmName = data.jvmName;
-                    $scope.jvmVersion = data.jvmVersion;
-                    $scope.osTimezone = data.osTimezone;
-                    $scope.osCountry = data.osCountry;
-                    $scope.osArch = data.osArch;
-                    $scope.osName = data.osName;
-                    $scope.osVersion = data.osVersion;
-                },
-                function (response) {
-                    alert('ko=' + response.data);
+            $scope.pending = true;
+
+            AppVersionService.getBackendVersionFull()
+                .then(function (res) {
+                    $scope.name = res.data.appName;
+                    $scope.version = res.data.appVersion;
+                    $scope.playVersion = res.data.playVersion;
+                    $scope.javaVersion = res.data.javaVersion;
+                    $scope.jvmName = res.data.jvmName;
+                    $scope.jvmVersion = res.data.jvmVersion;
+                    $scope.osTimezone = res.data.osTimezone;
+                    $scope.osCountry = res.data.osCountry;
+                    $scope.osArch = res.data.osArch;
+                    $scope.osName = res.data.osName;
+                    $scope.osVersion = res.data.osVersion;
+
+                    $scope.pending = false;
+                }, function() {
+                    $scope.pending = false;
                 }
             );
 
         } else {
 
-            AppVersionService.getVersion(
-                function (data) {
-                    $scope.name = data.appName;
-                    $scope.version = data.appVersion;
-                },
-                function (response) {
-                    alert('ko=' + response.data);
+            $scope.pending = true;
+
+            AppVersionService.getBackendVersion()
+                .then(function (res) {
+                    $scope.name = res.data.appName;
+                    $scope.version = res.data.appVersion;
+
+                    $scope.pending = false;
+                }, function() {
+                    $scope.pending = false;
                 }
             );
         }

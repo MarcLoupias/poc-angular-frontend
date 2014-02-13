@@ -3,15 +3,13 @@
 angular.module('pocAngularFrontendApp')
     .factory('AppVersionService', function AppVersionService($http, backendUrlService) {
         return {
-            getVersion: function(successCallbackFn, errorCallbackFn) {
-                return $http({method: 'GET', url: backendUrlService + '/version'})
-                .success(successCallbackFn)
-                .error(errorCallbackFn);
+            getBackendVersion: function() {
+                return $http.get(backendUrlService + '/version');
             },
-            getVersionFull: function(successCallbackFn, errorCallbackFn) {
-                return $http({method: 'GET', url: backendUrlService + '/version-full', withCredentials: true})
-                    .success(successCallbackFn)
-                    .error(errorCallbackFn);
+            getBackendVersionFull: function() {
+                return $http.get(backendUrlService + '/version-full', {
+                    withCredentials: true
+                });
             }
         };
     }

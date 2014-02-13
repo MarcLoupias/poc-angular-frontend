@@ -4,14 +4,14 @@
     <list default="true" id="ca2336db-45c9-4b2d-b838-c2fcd644507b" name="Default" comment="" />
     <ignored path="poc-angular-frontend.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392102485689" ignored="false" />
+    <file path="/index.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392185759993" ignored="false" />
     <file path="/main.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391035847505" ignored="false" />
     <file path="/search.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390590833542" ignored="false" />
     <file path="/build.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390810904676" ignored="false" />
-    <file path="/search-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391164381872" ignored="false" />
-    <file path="/app-version.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938902316" ignored="false" />
-    <file path="/app-version-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938497553" ignored="false" />
-    <file path="/app-version.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391003151691" ignored="false" />
+    <file path="/search-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195938503" ignored="false" />
+    <file path="/app-version.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392199826969" ignored="false" />
+    <file path="/app-version-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392198699644" ignored="false" />
+    <file path="/app-version.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392199637800" ignored="false" />
     <file path="/backend-url-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390831369202" ignored="false" />
     <file path="/CredentialsCheckerAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390832552136" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/credentials/CredentialsCheckerAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390832626009" ignored="false" />
@@ -24,12 +24,12 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CategoryCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938352154" ignored="false" />
     <file path="/CategoryCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390832780216" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/VersionCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938103245" ignored="false" />
-    <file path="/main.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391003082672" ignored="false" />
-    <file path="/navbar.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391015321755" ignored="false" />
+    <file path="/main.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187289332" ignored="false" />
+    <file path="/navbar.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187213759" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/cache/HttpResponseHeadersConfig.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390844231263" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/cache/HttpResponseHeadersConfigAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390844314182" ignored="false" />
     <file path="/HttpResponseHeadersConfigAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937862089" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CinemaCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391118554934" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CinemaCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195835768" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CountyCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391685635720" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/LoginCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938197673" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/ProductCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390938310036" ignored="false" />
@@ -40,15 +40,15 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/HttpResponseHeadersConfigAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937863736" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/credentials/CredentialsCheckerAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390846135549" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/credentials/CredentialsChecker.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390846135549" ignored="false" />
-    <file path="/login-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391004803987" ignored="false" />
-    <file path="/fragment.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391794945169" ignored="false" />
+    <file path="/login-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135998546" ignored="false" />
+    <file path="/fragment.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186840574" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391104251896" ignored="false" />
     <file path="/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391104251014" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796607016" ignored="false" />
-    <file path="/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796587691" ignored="false" />
-    <file path="/search-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391782133626" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392019678156" ignored="false" />
-    <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392019664666" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392190306495" ignored="false" />
+    <file path="/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186796704" ignored="false" />
+    <file path="/search-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196014652" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196164433" ignored="false" />
+    <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196153618" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937834400" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937825112" ignored="false" />
     <file path="/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937816647" ignored="false" />
@@ -69,14 +69,14 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/LogoutCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391009707506" ignored="false" />
     <file path="/LogoutCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391009707506" ignored="false" />
     <file path="/logout-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391010024035" ignored="false" />
-    <file path="/user-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391010291118" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796514480" ignored="false" />
-    <file path="/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796510322" ignored="false" />
-    <file path="/main.css" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392103771695" ignored="false" />
+    <file path="/user-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186096576" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186749122" ignored="false" />
+    <file path="/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186746893" ignored="false" />
+    <file path="/main.css" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135808491" ignored="false" />
     <file path="/bower.json" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392103351620" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/models/Cinema.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796935462" ignored="false" />
     <file path="/Cinema.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391795208314" ignored="false" />
-    <file path="/search-cinema-by-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798257921" ignored="false" />
+    <file path="/search-cinema-by-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197230900" ignored="false" />
     <file path="/CountyCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391685520887" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/db/DaoJpa.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798107687" ignored="false" />
     <file path="/DaoJpa.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798091552" ignored="false" />
@@ -101,12 +101,12 @@
     <file path="/GetServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391101514985" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/get/GetServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022362265" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/logs/application.log" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798203332" ignored="false" />
-    <file path="/county-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391782058942" ignored="false" />
+    <file path="/county-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392140733164" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/query/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117980580" ignored="false" />
     <file path="/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117977262" ignored="false" />
     <file path="/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391118361191" ignored="false" />
-    <file path="/search-cinema.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391164372656" ignored="false" />
-    <file path="/search-cinema.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391782295211" ignored="false" />
+    <file path="/search-cinema.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195775226" ignored="false" />
+    <file path="/search-cinema.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196035302" ignored="false" />
     <file path="/cinema-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391797129958" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/rest/FilterParserService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022095924" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/rest/FilterParserServiceImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391714300680" ignored="false" />
@@ -117,7 +117,7 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/rest/FilterParserServiceException.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391699858959" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/build.sbt" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391701605956" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391701709184" ignored="false" />
-    <file path="/search-cinema-by-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391797537294" ignored="false" />
+    <file path="/search-cinema-by-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197408741" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CinemaByCountyCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796465690" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392017389096" ignored="false" />
     <file path="/QueryCinemaByCountyServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391794504794" ignored="false" />
@@ -157,8 +157,19 @@
     <file path="/DeleteServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028659189" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/get/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
-    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392106326400" ignored="false" />
-    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392110195524" ignored="false" />
+    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197547831" ignored="false" />
+    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392232980769" ignored="false" />
+    <file path="/app.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191554081" ignored="false" />
+    <file path="/error-alert.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392132346940" ignored="false" />
+    <file path="/angular-ui-alert-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135095245" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/infos/UserInfosServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186454369" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/infos/UserInfosServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187367116" ignored="false" />
+    <file path="/UserInfosServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186516883" ignored="false" />
+    <file path="/UserInfosServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186243271" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/UserInfosCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187367116" ignored="false" />
+    <file path="/UserInfosCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186649003" ignored="false" />
+    <file path="/http-interceptor-rejection-filter-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191505761" ignored="false" />
+    <file path="/CinemaCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195654689" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +182,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -222,7 +238,7 @@
       <file leaf-file-name="crud-county.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="140" selection-end="788" vertical-scroll-proportion="-11.25">
+            <state line="10" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,27 +247,26 @@
       <file leaf-file-name="crud-county.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="79" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.57125306">
+            <state line="77" column="25" selection-start="2972" selection-end="2972" vertical-scroll-proportion="0.7103621">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ng-grid-2.0.7.debug.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
+      <file leaf-file-name="search-cinema.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3516" column="44" selection-start="141843" selection-end="141843" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
-                <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
-              </folding>
+            <state line="12" column="25" selection-start="216" selection-end="232" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-cinema.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="64" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -266,21 +281,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/app-version.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/app-version-service.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/navbar.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/loader.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema.html" />
         <option value="$PROJECT_DIR$/app/views/search-county.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-county.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/county-service.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/cinema-service.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema-by-county.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema-by-county.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/views/crud-county.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/app-version-service.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/app-version.js" />
+        <option value="$PROJECT_DIR$/app/views/app-version.html" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/crud-county.js" />
       </list>
     </option>
@@ -319,8 +334,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,47 +440,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-angular-frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-angular-frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-grid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-angular-frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc-angular-frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,7 +613,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963072" sideWeight="0.80285037" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -625,7 +622,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24593796" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24593796" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -707,124 +704,98 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="567" selection-end="567" vertical-scroll-proportion="0.34134007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema-by-county.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="749" selection-end="749" vertical-scroll-proportion="0.42383292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="135" selection-end="135" vertical-scroll-proportion="0.15189873">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/backend-url-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="49" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search-cinema-by-county.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="50" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-15.416667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="3" selection-start="2596" selection-end="2596" vertical-scroll-proportion="1.081081">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search-county.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="66" selection-start="626" selection-end="626" vertical-scroll-proportion="0.3607595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="55" column="56" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.7151899">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="549" selection-end="549" vertical-scroll-proportion="0.39873418">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="27" selection-start="8127" selection-end="8127" vertical-scroll-proportion="0.32237673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/app-version-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="467" selection-end="467" vertical-scroll-proportion="0.2027027" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/cinema-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="336" selection-end="336" vertical-scroll-proportion="0.16584766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="216" selection-end="232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5251" column="2" selection-start="87170" selection-end="87170" vertical-scroll-proportion="0.33290488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="36" selection-start="8307" selection-end="8307" vertical-scroll-proportion="0.47876447">
+        <state line="119" column="4" selection-start="5360" selection-end="5360" vertical-scroll-proportion="0.47468355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="121" selection-end="121" vertical-scroll-proportion="0.09213759">
+        <state line="4" column="11" selection-start="66" selection-end="66" vertical-scroll-proportion="0.077220075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="343" selection-end="343" vertical-scroll-proportion="0.38697788">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/app-version.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="34" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.5896806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/app-version.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="46" selection-start="607" selection-end="607" vertical-scroll-proportion="0.49367088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-county.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="569" selection-end="569" vertical-scroll-proportion="0.33169532">
+        <state line="7" column="64" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3516" column="44" selection-start="141843" selection-end="141843" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
-            <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="140" selection-end="788" vertical-scroll-proportion="-11.25">
+        <state line="10" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="79" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.57125306">
+        <state line="77" column="25" selection-start="2972" selection-end="2972" vertical-scroll-proportion="0.7103621">
           <folding />
         </state>
       </provider>

@@ -6,20 +6,11 @@
 
     <div class="row"> <hr/> </div>
 
-    <!--<div class="row">
+    <div ng-if="pending" class="row">
+        <loader></loader>
+    </div>
 
-        <form class="form-horizontal" role="form">
-
-            <div class="form-group">
-                <div class="col-xs-offset-10 col-xs-2">
-                    <button ng-click="search()" class="btn btn-default">Rechercher</button>
-                </div>
-            </div>
-        </form>
-
-    </div>-->
-
-    <div class="row">
+    <div ng-if="!pending" class="row">
 
         <table class="table table-striped table-hover">
             <thead>
@@ -42,7 +33,7 @@
 
     </div>
 
-    <div class="row" ng-hide="totalItems == 0">
+    <div class="row" ng-hide="totalItems == 0 || pending">
 
         <pagination class="pagination-sm" direction-links="true" boundary-links="true" max-size="10"
                     previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"

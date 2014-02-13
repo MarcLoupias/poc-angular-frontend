@@ -1,8 +1,18 @@
 <div class="container" >
 
-    <div ng-if="!userService.logged" class="panel panel-info">
+    <div class="row">
+        <h3>Version</h3>
+    </div>
+
+    <div class="row"> <hr/> </div>
+
+    <div ng-if="pending" class="row">
+        <loader></loader>
+    </div>
+
+    <div ng-if="!userService.logged && !pending" class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">Version</h3>
+            <h3 class="panel-title">Version - backend</h3>
         </div>
 
         <div class="panel-body">
@@ -14,9 +24,9 @@
         </div>
     </div>
 
-    <div ng-if="userService.logged" class="panel panel-info">
+    <div ng-if="userService.logged && !pending" class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">Version-full</h3>
+            <h3 class="panel-title">Version-full - backend</h3>
         </div>
 
         <div class="panel-body">

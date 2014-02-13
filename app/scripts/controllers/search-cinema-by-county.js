@@ -6,6 +6,7 @@ angular.module('pocAngularFrontendApp')
         $scope.currentPage = 1;
         $scope.itemsPerPage = 10;
         $scope.totalItems = 0;
+        $scope.pending = false;
 
         $scope.getCounties = function(val) {
 
@@ -29,10 +30,16 @@ angular.module('pocAngularFrontendApp')
 
         $scope.onSelectCounty = function() {
 
+            $scope.pending = true;
+
             cinemaService.getCinemasByCountyName($scope.currentPage, $scope.itemsPerPage, $scope.selectedCounty.name)
                 .then(function (res) {
                     $scope.cinemas = res.data;
                     $scope.totalItems = parseInt(res.headers('x-total-count'));
+                    $scope.pending = false;
+
+                }, function() {
+                    $scope.pending = false;
                 }
             );
 

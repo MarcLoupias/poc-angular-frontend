@@ -22,7 +22,8 @@
   </head>
   <body ng-app="pocAngularFrontendApp">
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please
+          <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <div ng-controller="NavbarCtrl" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -47,26 +48,6 @@
                 <ul class="nav navbar-nav">
                     <li class="divider"></li>
                     <li>
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Technos<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>Frontend</li>
-                            <li><img src="../images/icon-yo-mini.ico" class="img-rounded pull-left"><i><a href="">Yeoman</a></i></li>
-                            <li><a href="">Grunt</a></li>
-                            <li><a href="">Bower</a></li>
-                            <li><a href="">Bootstrap</a></li>
-                            <li><a href="">Angular</a></li>
-                            <li class="divider"></li>
-                            <li>Backend</li>
-                            <li><a href="">MySQL</a></li>
-                            <li><a href="">Play!</a></li>
-                            <li class="divider"></li>
-                            <li>Outils divers</li>
-                            <li><a href="">Git</a></li>
-                            <li><a href="">IntelliJ IDEA</a></li>
-                        </ul>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">Recherches<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#/search-county">Départements</a></li>
@@ -76,8 +57,8 @@
                             <li><a href="#/search-cinema-by-county">Cinémas par départements</a></li>
                         </ul>
                     </li>
-                    <li class="divider"></li>
-                    <li>
+                    <li ng-if="userService.logged" class="divider"></li>
+                    <li ng-if="userService.logged">
                         <a href="" class="dropdown-toggle" data-toggle="dropdown">CRUD<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#/crud-county">Départements</a></li>
@@ -87,17 +68,6 @@
                             <li><a href="#/search-cinema-by-county">Cinémas par départements</a></li>
                         </ul>
                     </li>
-                    <!--<li class="divider"></li>
-                    <li>
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Stats & Graphs<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#/search-county">Départements</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#/search">Cinémas</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#/search-cinema-by-county">Cinémas par départements</a></li>
-                        </ul>
-                    </li>-->
                     <li class="divider"></li>
                     <li><a href="#/app-version">?</a></li>
                     <li class="divider"></li>
@@ -113,6 +83,7 @@
                     </div>
                     <div class="form-group">
                         <button ng-click="doLogin(login, pwd)" class="btn btn-success">Login</button>
+                        <img ng-show="pendingLogin" src="../images/loader.24x24.gif" alt="Loading" class="img-rounded">
                     </div>
 
                 </form>
@@ -120,11 +91,13 @@
                 <form ng-if="userService.logged" class="navbar-form navbar-right" role="form">
 
                     <div class="form-group">
-                        <p class="navbar-text my-navbar-text">Logué en tant que <a href="#" class="navbar-link">{{userService.login}}</a></p>
+                        <p class="navbar-text my-navbar-text">Logué en tant que
+                            <a href="#" class="navbar-link">{{userService.login}}</a></p>
                     </div>
 
                     <div class="form-group">
                         <button ng-click="doLogout()" class="btn btn-danger">Logout</button>
+                        <img ng-show="pendingLogout" src="../images/loader.24x24.gif" alt="Loading" class="img-rounded">
                     </div>
 
                 </form>
@@ -135,20 +108,28 @@
 
     </div>
 
-    <!-- Add your site or application content here -->
+    <div class="container" ng-controller="ErrorAlertCtrl">
+
+            <alert ng-repeat="alert in alertService.alertList" type="alert.type"
+                   close="alertService.removeAlert($index)">{{alert.msg}}</alert>
+
+    </div>
+
+    <!-- application content here -->
     <div ng-view=""></div>
 
-    <!--<hr/>-->
-    <div class="row"> <br/> </div>
+    <div class="container" >
+        <div class="row"> <br/> </div>
+    </div>
 
     <div class="jumbotron" >
-    <div class="container" >
-        <footer>
+        <div class="container">
+            <footer>
+                <p>&copy; Marc Loupias 2014</p>
+            </footer>
+        </div>
+    </div>
 
-            <p>&copy; Marc Loupias 2014</p>
-        </footer>
-    </div>
-    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -196,6 +177,10 @@
         <script src="scripts/services/county-service.js"></script>
         <script src="scripts/services/cinema-service.js"></script>
         <script src="scripts/controllers/crud-county.js"></script>
+        <script src="scripts/controllers/error-alert.js"></script>
+        <script src="scripts/services/angular-ui-alert-service.js"></script>
+        <script src="scripts/services/http-interceptor-rejection-filter-service.js"></script>
+        <script src="scripts/directives/loader.js"></script>
         <!-- endbuild -->
 </body>
 </html>

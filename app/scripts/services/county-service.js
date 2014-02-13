@@ -20,6 +20,9 @@ angular.module('pocAngularFrontendApp')
                     },
                     withCredentials: true
                 });
+            },
+            putCounty: function(county) {
+                return $http.put(backendUrlService + '/counties/' + county.id, county, {withCredentials: true});
             }
         };
     });

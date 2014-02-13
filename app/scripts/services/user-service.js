@@ -15,4 +15,14 @@ angular.module('pocAngularFrontendApp')
             this.email = _email;
             this.logged = true;
         }
+    })
+    .factory('userRestService', function ($http, backendUrlService) {
+
+        return {
+            getUser: function() {
+                return $http.get(backendUrlService + '/user-infos', {
+                    withCredentials: true
+                });
+            }
+        };
     });

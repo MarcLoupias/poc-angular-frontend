@@ -8,7 +8,8 @@ angular.module('pocAngularFrontendApp', [
         'ui.bootstrap',
         'ngGrid'
     ])
-    .config(function ($routeProvider) {
+    .config(function ($routeProvider, $httpProvider) {
+
         $routeProvider
             .when('/', {
                 templateUrl: 'views/main.html',
@@ -37,4 +38,24 @@ angular.module('pocAngularFrontendApp', [
             .otherwise({
                 redirectTo: '/'
             });
+
+        $httpProvider.interceptors.push(function($q, angularUiAlertService, httpInterceptorRejectionFilterService) {
+            return {
+                'requestError': function(rejection) {
+                    alert('requestError -> rejection=' + JSON.stringify(rejection));
+                    return $q.reject(rejection);
+                },
+                'responseError': function(rejection) {
+                    //alert('responseError -> rejection=' + JSON.stringify(rejection));
+
+                    if(httpInterceptorRejectionFilterService.filter(rejection, '/user-infos', 'GET')){
+                        return $q.reject(rejection);
+                    }
+
+                    angularUiAlertService.addErrorAlert('Erreur ' + rejection.status + ' - ' + rejection.data);
+
+                    return $q.reject(rejection);
+                }
+            };
+        });
     });

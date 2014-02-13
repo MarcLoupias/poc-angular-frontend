@@ -1,42 +1,49 @@
 'use strict';
 
 angular.module('pocAngularFrontendApp')
-    .controller('NavbarCtrl', function ($scope, $location, userService, loginService, logoutService) {
+    .controller('NavbarCtrl', function ($scope, $location, userService, userRestService, loginService, logoutService,
+                                        angularUiAlertService) {
+
+        // when user refresh app (F5 hit) we have to know if a session is opened on the backend
+        userRestService.getUser().then(
+            function (res) {
+                userService.setLogin(res.login, res.email);
+            }
+        );
 
         $scope.userService = userService;
         $scope.login = "admin";
         $scope.pwd = "@dm1nPwd";
+        $scope.pendingLogin = false;
+        $scope.pendingLogout = false;
 
         $scope.doLogin = function (_login, _pwd) {
 
             var loginAttempt = loginService.buildLoginAttempt(_login, "", _pwd);
+            $scope.pendingLogin = true;
 
-            loginService.login(
-                loginAttempt,
-
-                function (data) {
+            loginService.login(loginAttempt).then(
+                function () {
+                    $scope.pendingLogin = false;
                     userService.setLogin(loginAttempt.login, loginAttempt.email);
                 },
-
-                function (response) {
-                    alert("login failed");
+                function () {
+                    $scope.pendingLogin = false;
+                    angularUiAlertService.addWarningAlert('La tentative de login a échoué !');
                     userService.setLogout();
                 }
             );
-
         };
 
         $scope.doLogout = function() {
 
-            logoutService.logout(
+            $scope.pendingLogout = true;
 
-                function (data) {
+            logoutService.logout().then(
+                function () {
+                    $scope.pendingLogout = false;
                     userService.setLogout();
                     $location.path("/");
-                },
-
-                function (response) {
-                    alert(response);
                 }
             );
         };
