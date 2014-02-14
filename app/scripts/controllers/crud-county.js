@@ -35,9 +35,13 @@ angular.module('pocAngularFrontendApp')
             }
         }, true);
 
-        $scope.oldEntity = undefined;
+        var cellNameEditable
+            =   '<cell-template model=COL_FIELD input=COL_FIELD entity=row.entity></cell-template>' +
+            'COL_FIELD = {{row.getProperty(col.field)}} row.entity = {{row.entity}}';
 
-        var cellName = '<input ng-class="\'colt\' + col.index" ng-input="COL_FIELD" ng-model="COL_FIELD" />';
+        var cellNameDisplay
+            = '<div class="ngCellText" ng-class="col.colIndex()">{{row.getProperty(col.field)}}'
+            + ' COL_FIELD = {{row.getProperty(col.field)}} row.entity = {{row.entity}}</div>';
 
         $scope.gridOptionsCrudCounty = {
             data: 'myData',
@@ -45,21 +49,21 @@ angular.module('pocAngularFrontendApp')
             enableCellSelection: true,
             enableRowSelection: false,
             enableCellEditOnFocus: false,
+            rowHeight: 60,
             columnDefs: [
                 {field:'id', displayName:'Id', visible: false},
                 {field:'code', displayName:'Code', enableCellEdit:true},
                 {
                     field:'name', displayName:'Name', enableCellEdit:true,
-                    editableCellTemplate: cellName
+                    cellTemplate: cellNameDisplay,
+                    editableCellTemplate: cellNameEditable
                 }
             ],
             enablePaging: true,
             showFooter: true,
             totalServerItems:'totalServerItems',
-            pagingOptions: $scope.pagingOptions,
-            afterSelectionChange: function(row, event) {
-                /*console.log('afterSelectionChange callback fired arg = ' + JSON.stringify(row));*/
-                /*console.log("deal with row " + row.rowIndex);*/
+            pagingOptions: $scope.pagingOptions/*,
+            afterSelectionChange: function() {
                 console.log('afterSelectionChange callback fired');
             },
             beforeSelectionChange: function(row) {
@@ -67,28 +71,30 @@ angular.module('pocAngularFrontendApp')
                 $scope.oldEntity = angular.copy(row.entity);
 
                 return true;
-            }
+            }*/
         };
 
         $scope.pagingOptions.currentPage = 1;
 
-        $scope.$on('ngGridEventData', function(gridId) {
+        /*$scope.$on('ngGridEventEndCellEdit', function(event) {
 
-            var toto = gridId;
-            //console.log('ngGridEventData fired gridId = ' + JSON.stringify(gridId.targetScope.row));
-            //angularUiAlertService.addInfoAlert('before cell edit : ' + event.targetScope.row.entity.id);
+            console.log('ngGridEventEndCellEdit fired');
 
-            /*countyService.putCounty(event.targetScope.row.entity).then(function(res) {
-                angularUiAlertService.addInfoAlert('before cell edit : ' + event.targetScope.row.entity.id);
-            });*/
-        });
+            if(event.targetScope.validForm) {
+                if(!angular.equals($scope.oldEntity, event.targetScope.entity)) {
+                    countyService.putCounty(event.targetScope.entity).then(function(res) {
+                        angularUiAlertService.addSuccessAlert('Le département ' + event.targetScope.entity.name + ' a été modifié avec succès.');
+                    });
+                }
+            } else {
+                event.targetScope.entity = $scope.oldEntity;
+            }
+        });*/
 
         $scope.$on('ngGridEventEndCellEdit', function(event) {
-
-            if(!angular.equals($scope.oldEntity, event.targetScope.row.entity)) {
-                countyService.putCounty(event.targetScope.row.entity).then(function(res) {
-                    angularUiAlertService.addSuccessAlert('Le département ' + event.targetScope.row.entity.name + ' a été modifié avec succès.');
-                });
-            }
-        });
+            console.log('ngGridEventEndCellEdit fired');
+            //var entity = event.targetScope.entity;
+            //event.currentScope.entity = event.targetScope.entity;
+            /*var entity = event.currentScope.entity;*/
+         });
     });

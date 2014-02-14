@@ -47,7 +47,7 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392190306495" ignored="false" />
     <file path="/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186796704" ignored="false" />
     <file path="/search-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196014652" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196164433" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392378609127" ignored="false" />
     <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196153618" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937834400" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937825112" ignored="false" />
@@ -157,8 +157,8 @@
     <file path="/DeleteServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028659189" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/get/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
-    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197547831" ignored="false" />
-    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392282455575" ignored="false" />
+    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392303787926" ignored="false" />
+    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392307934971" ignored="false" />
     <file path="/app.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191554081" ignored="false" />
     <file path="/error-alert.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392132346940" ignored="false" />
     <file path="/angular-ui-alert-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135095245" ignored="false" />
@@ -170,6 +170,7 @@
     <file path="/UserInfosCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186649003" ignored="false" />
     <file path="/http-interceptor-rejection-filter-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191505761" ignored="false" />
     <file path="/CinemaCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195654689" ignored="false" />
+    <file path="/my-ng-grid-cells-templates.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392305809081" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +190,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -225,7 +227,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -238,35 +239,63 @@
       <file leaf-file-name="crud-county.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+            <state line="12" column="33" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crud-county.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="40" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crud-county.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.29837704">
+            <state line="68" column="48" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-cinema.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="216" selection-end="232" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-cinema.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
+      <file leaf-file-name="my-ng-grid-cells-templates.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/my-ng-grid-cells-templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="64" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+            <state line="18" column="60" selection-start="782" selection-end="782" vertical-scroll-proportion="0.33707866">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ng-grid-2.0.7.debug.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3243" column="35" selection-start="130913" selection-end="130913" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
+                <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -281,7 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/navbar.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/loader.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema.html" />
@@ -290,13 +318,14 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema-by-county.js" />
         <option value="$PROJECT_DIR$/app/views/search-cinema-by-county.html" />
-        <option value="$PROJECT_DIR$/app/views/crud-county.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/app-version-service.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/app-version.js" />
         <option value="$PROJECT_DIR$/app/views/app-version.html" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/views/crud-county.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/crud-county.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/my-ng-grid-cells-templates.js" />
       </list>
     </option>
   </component>
@@ -334,8 +363,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,6 +378,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,12 +543,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-grid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-angular-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,8 +651,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -505,19 +672,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -548,6 +702,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -561,6 +728,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -582,13 +756,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -704,69 +871,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/search-cinema-by-county.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="56" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.7151899">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="344" column="27" selection-start="8127" selection-end="8127" vertical-scroll-proportion="0.32237673" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/app-version-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="467" selection-end="467" vertical-scroll-proportion="0.2027027" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/cinema-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="58" selection-start="336" selection-end="336" vertical-scroll-proportion="0.16584766" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="216" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5251" column="2" selection-start="87170" selection-end="87170" vertical-scroll-proportion="0.33290488" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="4" selection-start="5360" selection-end="5360" vertical-scroll-proportion="0.47468355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="66" selection-end="66" vertical-scroll-proportion="0.077220075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/app-version.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="34" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.5896806" />
@@ -781,21 +885,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="64" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+        <state line="7" column="64" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search-cinema.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="37" selection-start="578" selection-end="578" vertical-scroll-proportion="0.47468355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.29837704">
+        <state line="68" column="48" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="43" selection-start="4368" selection-end="4368" vertical-scroll-proportion="0.28920308" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/angular/angular-csp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="63" selection-start="241" selection-end="241" vertical-scroll-proportion="0.2465234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="0.057840616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/lib/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="583" selection-end="583" vertical-scroll-proportion="0.42416453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/ng-grid-2.0.7.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3243" column="35" selection-start="130913" selection-end="130913" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373143971000" expanded="false" signature="8086:8114" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="8541:8602" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="141893:141924" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142029:142060" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142125:142154" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142243:142281" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142500:142549" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="142585:142615" placeholder="..." />
+            <marker date="1373143971000" expanded="false" signature="143191:143249" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/my-ng-grid-cells-templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="60" selection-start="782" selection-end="782" vertical-scroll-proportion="0.33707866">
           <folding />
         </state>
       </provider>
