@@ -5,7 +5,19 @@
     </div>
 
     <div class="row"> <hr/> </div>
-    <div class="row"> data = {{myData | json }}</div>
+
+    <div class="row">
+
+        <div ng-controller="CrudCountyNewCountyCtrl">
+            <button class="btn btn-default pull-right" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+
+            <div collapse="isCollapsed">
+                <div class="well well-lg">Some content</div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="row"> <hr/> </div>
 
     <div ng-if="pending" class="row">
