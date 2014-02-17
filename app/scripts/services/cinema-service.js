@@ -22,6 +22,15 @@ angular.module('pocAngularFrontendApp')
                     },
                     withCredentials: true
                 });
+            },
+            putCinema: function(cinema) {
+                return $http.put(backendUrlService + '/cinemas/' + cinema.id, cinema, {withCredentials: true});
+            },
+            postCinema: function(cinema) {
+                return $http.post(backendUrlService + '/cinemas', cinema, {withCredentials: true});
+            },
+            deleteCinema: function(cinema) {
+                return $http.delete(backendUrlService + '/cinemas/' + cinema.id, {withCredentials: true});
             }
         };
   });

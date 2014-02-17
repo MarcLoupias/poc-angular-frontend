@@ -1,0 +1,78 @@
+<div class="container" >
+
+    <div class="row">
+        <h3>CRUD des Cinémas</h3>
+    </div>
+
+    <div class="row"> <hr/> </div>
+
+    <div ng-if="!pending" class="row">
+
+        <div collapse="isCollapsed">
+            <div class="well well-lg">
+                <form name="crudNewCinema" class="form-horizontal" role="form" ng-controller="CrudCinemaNewCinemaCtrl" novalidate>
+
+                    <div class="form-group" ng-class="bootstrapHelper.isValid(crudNewCinema.name.$valid)">
+                        <label for="name" class="col-sm-2 control-label">Nom</label>
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="cinema.name" class="form-control" id="name" name="name" placeholder="Nom"
+                                   ng-minlength="1" ng-maxlength="255" required ng-disabled="formPostPending"/>
+                            <span ng-show="crudNewCinema.name.$error.required" class="label label-danger"> Obligatoire</span>
+                            <span ng-show="crudNewCinema.name.$error.minlength" class="label label-danger"> 1 caractère min</span>
+                            <span ng-show="crudNewCinema.name.$error.maxlength" class="label label-danger"> 255 caractères max</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="bootstrapHelper.isValid(crudNewCinema.screen.$valid)">
+                        <label for="screen" class="col-sm-2 control-label">Nombre d'écrans</label>
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="cinema.screen" class="form-control" id="screen" name="screen" placeholder="Ecrans"
+                                   min="1" max="200" required ng-disabled="formPostPending"/>
+                            <span ng-show="crudNewCinema.screen.$error.required" class="label label-danger"> Obligatoire</span>
+                            <span ng-show="crudNewCinema.screen.$error.min" class="label label-danger"> 1 écran min</span>
+                            <span ng-show="crudNewCinema.screen.$error.max" class="label label-danger"> 200 écrans max</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="bootstrapHelper.isValid(crudNewCinema.seat.$valid)">
+                        <label for="seat" class="col-sm-2 control-label">Nombre de sièges</label>
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="cinema.seat" class="form-control" id="seat" name="seat" placeholder="Sièges"
+                                   min="1" max="10000" required ng-disabled="formPostPending"/>
+                            <span ng-show="crudNewCinema.seat.$error.required" class="label label-danger"> Obligatoire</span>
+                            <span ng-show="crudNewCinema.seat.$error.min" class="label label-danger"> 1 siège min</span>
+                            <span ng-show="crudNewCinema.seat.$error.max" class="label label-danger"> 10 000 sièges max</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success" ng-click="save(cinema)"
+                                    ng-disabled="crudNewCinema.$invalid || formPostPending">
+                                Valider
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <hr/>
+        </div>
+
+        <button class="btn btn-success pull-right" ng-click="isCollapsed = !isCollapsed">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+
+    </div>
+
+    <div ng-if="pending" class="row">
+        <loader></loader>
+    </div>
+
+    <div ng-if="!pending" class="row">
+        <div class="gridStyle" ng-grid="gridOptionsCrudCinema"></div>
+    </div>
+
+</div>

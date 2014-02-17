@@ -35,6 +35,10 @@ angular.module('pocAngularFrontendApp', [
               templateUrl: 'views/crud-county.html',
               controller: 'CrudCountyCtrl'
             })
+            .when('/crud-cinema', {
+              templateUrl: 'views/crud-cinema.html',
+              controller: 'CrudCinemaCtrl'
+            })
             .otherwise({
                 redirectTo: '/'
             });
