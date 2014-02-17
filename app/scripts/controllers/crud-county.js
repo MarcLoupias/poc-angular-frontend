@@ -56,7 +56,12 @@ angular.module('pocAngularFrontendApp')
 
         $scope.deleteDepartement = function(entity) {
             if(confirm('Supprimer le département ' + entity.name + ' ?')) {
-                alert('Le département ' + entity.name + ' a été supprimé !');
+                $scope.pending = true;
+                countyService.deleteCounty(entity).then(function () {
+                    $scope.pending = false;
+                    angularUiAlertService.addSuccessAlert('Le département ' + entity.name + ' a été supprimé.');
+                    $scope.search();
+                });
             }
         };
 
@@ -118,22 +123,25 @@ angular.module('pocAngularFrontendApp')
         $scope.isCollapsed = true;
     })
 
-    .controller('CrudCountyNewCountyCtrl', function ($scope, countyService, angularUiAlertService) {
+    .controller('CrudCountyNewCountyCtrl', function ($scope, countyService, angularUiAlertService,
+                                                     bootstrapFormValidationHelperService) {
 
-        $scope.valider = function() {
-            alert('validé ! code=' + $scope.county.code + ' name=' + $scope.county.name);
+        $scope.bootstrapHelper = bootstrapFormValidationHelperService;
+
+        $scope.resetCrudNewCountyForm = function() {
+            $scope.county = {};
         };
 
-        $scope.getBootstrapValidationStates = function(validationStateError) {
+        $scope.save = function(county) {
+            $scope.formPostPending = true;
 
-            if(validationStateError === undefined || validationStateError === null) {
-                return 'has-error has-feedback';
-            }
-
-            if(validationStateError) {
-                return 'has-error has-feedback';
-            } else {
-                return 'has-success has-feedback';
-            }
+            countyService.postCounty(county).then(
+                function () {
+                    angularUiAlertService.addSuccessAlert('Le département ' + county.name + ' a été ajouté.');
+                    $scope.resetCrudNewCountyForm();
+                    $scope.search();
+                    $scope.formPostPending = false;
+                }
+            );
         };
     });

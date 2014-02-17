@@ -47,7 +47,7 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392190306495" ignored="false" />
     <file path="/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186796704" ignored="false" />
     <file path="/search-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196014652" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392378609127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392634601642" ignored="false" />
     <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196153618" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937834400" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937825112" ignored="false" />
@@ -101,7 +101,7 @@
     <file path="/GetServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391101514985" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/get/GetServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022362265" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/logs/application.log" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391798203332" ignored="false" />
-    <file path="/county-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392140733164" ignored="false" />
+    <file path="/county-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392633898476" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/query/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117980580" ignored="false" />
     <file path="/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117977262" ignored="false" />
     <file path="/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391118361191" ignored="false" />
@@ -157,8 +157,8 @@
     <file path="/DeleteServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028659189" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/get/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
     <file path="/GetServiceJavaImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392029130215" ignored="false" />
-    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392631693428" ignored="false" />
-    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392629971381" ignored="false" />
+    <file path="/crud-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392634427159" ignored="false" />
+    <file path="/crud-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392634538577" ignored="false" />
     <file path="/app.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191554081" ignored="false" />
     <file path="/error-alert.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392132346940" ignored="false" />
     <file path="/angular-ui-alert-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135095245" ignored="false" />
@@ -171,6 +171,7 @@
     <file path="/http-interceptor-rejection-filter-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392191505761" ignored="false" />
     <file path="/CinemaCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195654689" ignored="false" />
     <file path="/my-ng-grid-cells-templates.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392624633670" ignored="false" />
+    <file path="/bootstrap-form-validation-helper-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392633565831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,28 +237,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="crud-county.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="crud-county.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.84810126">
+            <state line="49" column="36" selection-start="2896" selection-end="2896" vertical-scroll-proportion="-27.916666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crud-county.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="crud-county.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="48" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0">
+            <state line="60" column="43" selection-start="2087" selection-end="2087" vertical-scroll-proportion="0.46068797">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-ng-grid-cells-templates.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/my-ng-grid-cells-templates.js">
+      <file leaf-file-name="angular-ui-alert-service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/angular-ui-alert-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="39" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.0">
+            <state line="21" column="23" selection-start="700" selection-end="715" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="county-service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/county-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="66" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cinema-service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/cinema-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="57" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -273,8 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/directives/loader.js" />
-        <option value="$PROJECT_DIR$/app/views/search-cinema.html" />
         <option value="$PROJECT_DIR$/app/views/search-county.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-county.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/search-cinema.js" />
@@ -287,8 +304,10 @@
         <option value="$PROJECT_DIR$/app/scripts/directives/my-ng-grid-cells-templates.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/crud-county.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/bootstrap-form-validation-helper-service.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/county-service.js" />
         <option value="$PROJECT_DIR$/app/views/crud-county.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/crud-county.js" />
       </list>
     </option>
   </component>
@@ -772,19 +791,11 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/bower_components/angular/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="0.057840616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/ng-grid/lib/jquery-1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="583" selection-end="583" vertical-scroll-proportion="0.42416453" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-county.js">
@@ -792,19 +803,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/county-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="786" selection-end="786" vertical-scroll-proportion="0.38697788" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search-cinema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/angular-ui-alert-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="76" selection-start="481" selection-end="481" vertical-scroll-proportion="0.25798526" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/robots.txt">
@@ -850,16 +851,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/bootstrap-form-validation-helper-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="48" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0">
+        <state line="9" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.16584766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/cinema-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/county-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="66" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/angular-ui-alert-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="700" selection-end="715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/crud-county.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.84810126">
+        <state line="49" column="36" selection-start="2896" selection-end="2896" vertical-scroll-proportion="-27.916666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="43" selection-start="2087" selection-end="2087" vertical-scroll-proportion="0.46068797">
           <folding />
         </state>
       </provider>

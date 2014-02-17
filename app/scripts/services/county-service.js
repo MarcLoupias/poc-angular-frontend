@@ -23,6 +23,12 @@ angular.module('pocAngularFrontendApp')
             },
             putCounty: function(county) {
                 return $http.put(backendUrlService + '/counties/' + county.id, county, {withCredentials: true});
+            },
+            postCounty: function(county) {
+                return $http.post(backendUrlService + '/counties', county, {withCredentials: true});
+            },
+            deleteCounty: function(county) {
+                return $http.delete(backendUrlService + '/counties/' + county.id, {withCredentials: true});
             }
         };
     });
