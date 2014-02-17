@@ -6,19 +6,57 @@
 
     <div class="row"> <hr/> </div>
 
-    <div class="row">
+    <div ng-if="!pending" class="row">
 
-        <div ng-controller="CrudCountyNewCountyCtrl">
-            <button class="btn btn-default pull-right" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+        <div collapse="isCollapsed">
+            <!--<div class="well well-lg">-->
+                <form name="crudNewCounty" class="form-horizontal" role="form" ng-controller="CrudCountyNewCountyCtrl" novalidate>
 
-            <div collapse="isCollapsed">
-                <div class="well well-lg">Some content</div>
-            </div>
+                    <div class="form-group" ng-class="getBootstrapValidationStates(crudNewCounty.code.$invalid)">
+                        <label for="code" class="col-sm-2 control-label">Code</label>
+                        <div class="col-sm-10 input-append">
+                            <input type="text" ng-model="county.code" class="form-control" id="code" name="code" placeholder="Code"
+                                   ng-minlength="1" ng-maxlength="3" ng-pattern="/^[0-9]+$/" required/>
+                            <span ng-show="crudNewCounty.code.$error.required" class="label label-danger"> Obligatoire</span>
+                            <span ng-show="crudNewCounty.code.$error.minlength" class="label label-danger"> 1 caractère min</span>
+                            <span ng-show="crudNewCounty.code.$error.maxlength" class="label label-danger"> 3 caractères max</span>
+                            <span ng-show="crudNewCounty.code.$error.pattern" class="label label-danger"> Nombre obligatoire</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="getBootstrapValidationStates(crudNewCounty.name.$invalid)">
+                        <label for="name" class="col-sm-2 control-label">Nom</label>
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="county.name" class="form-control" id="name" name="name" placeholder="Nom"
+                                   ng-minlength="3" ng-maxlength="30" required/>
+                            <span ng-show="crudNewCounty.name.$error.required" class="label label-danger"> Obligatoire</span>
+                            <span ng-show="crudNewCounty.name.$error.minlength" class="label label-danger"> 3 caractère min</span>
+                            <span ng-show="crudNewCounty.name.$error.maxlength" class="label label-danger"> 30 caractères max</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success" ng-click="valider()" ng-disabled="crudNewCounty.$invalid">
+                                Valider
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+
+            <!--</div>-->
+
+            <hr/>
         </div>
+
+        <button class="btn btn-success pull-right" ng-click="isCollapsed = !isCollapsed">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
 
     </div>
 
-    <div class="row"> <hr/> </div>
+    <!--<div class="row">  </div>-->
 
     <div ng-if="pending" class="row">
         <loader></loader>

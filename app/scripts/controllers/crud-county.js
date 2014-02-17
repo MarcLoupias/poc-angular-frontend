@@ -54,6 +54,12 @@ angular.module('pocAngularFrontendApp')
             }
         };
 
+        $scope.deleteDepartement = function(entity) {
+            if(confirm('Supprimer le département ' + entity.name + ' ?')) {
+                alert('Le département ' + entity.name + ' a été supprimé !');
+            }
+        };
+
         var cellNameEditable =
             '<cell-template-input-text model=COL_FIELD required="true" min-length="3" ' +
                 'max-length="30" ' +
@@ -77,6 +83,11 @@ angular.module('pocAngularFrontendApp')
         var cellCodeDisplay =
             '<div class="ngCellText" ng-class="col.colIndex()">{{row.getProperty(col.field)}}</div>';
 
+        var cellTemplateActionBtnDelete =
+            '<button type="button" class="btn btn-danger grid-action-button" ng-click="deleteDepartement(row.entity)">' +
+            '<span class="glyphicon glyphicon-remove"></span>' +
+            '</button>';
+
         $scope.gridOptionsCrudCounty = {
             i18n: 'fr',
             data: 'myData',
@@ -93,7 +104,8 @@ angular.module('pocAngularFrontendApp')
                 {
                     field:'name', displayName:'Nom', enableCellEdit:true,
                     cellTemplate: cellNameDisplay, editableCellTemplate: cellNameEditable
-                }
+                },
+                {field:'actionBtnDelete', displayName:'', width: 40, cellTemplate:cellTemplateActionBtnDelete}
             ],
             enablePaging: true,
             showFooter: true,
@@ -102,8 +114,26 @@ angular.module('pocAngularFrontendApp')
         };
 
         $scope.pagingOptions.currentPage = 1;
+
+        $scope.isCollapsed = true;
     })
 
     .controller('CrudCountyNewCountyCtrl', function ($scope, countyService, angularUiAlertService) {
-        $scope.isCollapsed = true;
+
+        $scope.valider = function() {
+            alert('validé ! code=' + $scope.county.code + ' name=' + $scope.county.name);
+        };
+
+        $scope.getBootstrapValidationStates = function(validationStateError) {
+
+            if(validationStateError === undefined || validationStateError === null) {
+                return 'has-error has-feedback';
+            }
+
+            if(validationStateError) {
+                return 'has-error has-feedback';
+            } else {
+                return 'has-success has-feedback';
+            }
+        };
     });
