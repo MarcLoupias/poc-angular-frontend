@@ -57,11 +57,16 @@ angular.module('pocAngularFrontendApp')
         $scope.deleteDepartement = function(entity) {
             if(confirm('Supprimer le département ' + entity.name + ' ?')) {
                 $scope.pending = true;
-                countyService.deleteCounty(entity).then(function () {
-                    $scope.pending = false;
-                    angularUiAlertService.addSuccessAlert('Le département ' + entity.name + ' a été supprimé.');
-                    $scope.search();
-                });
+                countyService.deleteCounty(entity).then(
+                    function () {
+                        $scope.pending = false;
+                        angularUiAlertService.addSuccessAlert('Le département ' + entity.name + ' a été supprimé.');
+                        $scope.search();
+                    },
+                    function() {
+                        $scope.pending = false;
+                    }
+                );
             }
         };
 
@@ -140,6 +145,9 @@ angular.module('pocAngularFrontendApp')
                     angularUiAlertService.addSuccessAlert('Le département ' + county.name + ' a été ajouté.');
                     $scope.resetCrudNewCountyForm();
                     $scope.search();
+                    $scope.formPostPending = false;
+                },
+                function() {
                     $scope.formPostPending = false;
                 }
             );
