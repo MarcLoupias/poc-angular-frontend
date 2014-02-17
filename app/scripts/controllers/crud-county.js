@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('pocAngularFrontendApp')
-    .controller('CrudCountyCtrl', function ($scope, countyService, angularUiAlertService) {
+    .controller('CrudCountyCtrl', function ($scope, countyService, angularUiAlertService, angularUiConfirmModalService) {
 
         $scope.pending = false;
 
@@ -27,13 +27,33 @@ angular.module('pocAngularFrontendApp')
             currentPage: 1
         };
 
-        $scope.search();
-
         $scope.$watch('pagingOptions', function (newVal, oldVal) {
             if (newVal !== oldVal && (newVal.currentPage !== oldVal.currentPage || newVal.pageSize !== oldVal.pageSize)) {
                 $scope.search();
             }
         }, true);
+
+        $scope.deleteCounty = function(entity) {
+
+            angularUiConfirmModalService.confirm('Supprimer le département ' + entity.name + ' ?')
+                .then(function () {
+                    $scope.pending = true;
+                    countyService.deleteCounty(entity).then(
+                        function () {
+                            $scope.pending = false;
+                            angularUiAlertService.addSuccessAlert('Le département ' + entity.name + ' a été supprimé.');
+                            $scope.search();
+                        },
+                        function () {
+                            $scope.pending = false;
+                        }
+                    );
+                },
+                function () {
+                    $scope.pending = false;
+                }
+            );
+        };
 
         $scope.fnUnchangedCode = function() {
             return true;
@@ -51,22 +71,6 @@ angular.module('pocAngularFrontendApp')
             angularUiAlertService.addWarningAlert('Saisie invalide. Le département '+ entity.name + ' n\'a pas été mis à jour.');
             if (!$scope.$$phase) {
                 $scope.$apply();
-            }
-        };
-
-        $scope.deleteDepartement = function(entity) {
-            if(confirm('Supprimer le département ' + entity.name + ' ?')) {
-                $scope.pending = true;
-                countyService.deleteCounty(entity).then(
-                    function () {
-                        $scope.pending = false;
-                        angularUiAlertService.addSuccessAlert('Le département ' + entity.name + ' a été supprimé.');
-                        $scope.search();
-                    },
-                    function() {
-                        $scope.pending = false;
-                    }
-                );
             }
         };
 
@@ -94,7 +98,7 @@ angular.module('pocAngularFrontendApp')
             '<div class="ngCellText" ng-class="col.colIndex()">{{row.getProperty(col.field)}}</div>';
 
         var cellTemplateActionBtnDelete =
-            '<button type="button" class="btn btn-danger grid-action-button" ng-click="deleteDepartement(row.entity)">' +
+            '<button type="button" class="btn btn-danger grid-action-button" ng-click="deleteCounty(row.entity)">' +
             '<span class="glyphicon glyphicon-remove"></span>' +
             '</button>';
 
@@ -123,9 +127,9 @@ angular.module('pocAngularFrontendApp')
             pagingOptions: $scope.pagingOptions
         };
 
-        $scope.pagingOptions.currentPage = 1;
-
         $scope.isCollapsed = true;
+
+        $scope.search();
     })
 
     .controller('CrudCountyNewCountyCtrl', function ($scope, countyService, angularUiAlertService,
