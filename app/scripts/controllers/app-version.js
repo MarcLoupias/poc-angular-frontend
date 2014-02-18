@@ -5,6 +5,7 @@ angular.module('pocAngularFrontendApp')
 
         $scope.userService = userService;
         $scope.pending = false;
+        $scope.back = {};
 
         if( $scope.userService.logged === true ) {
 
@@ -12,17 +13,17 @@ angular.module('pocAngularFrontendApp')
 
             AppVersionService.getBackendVersionFull()
                 .then(function (res) {
-                    $scope.name = res.data.appName;
-                    $scope.version = res.data.appVersion;
-                    $scope.playVersion = res.data.playVersion;
-                    $scope.javaVersion = res.data.javaVersion;
-                    $scope.jvmName = res.data.jvmName;
-                    $scope.jvmVersion = res.data.jvmVersion;
-                    $scope.osTimezone = res.data.osTimezone;
-                    $scope.osCountry = res.data.osCountry;
-                    $scope.osArch = res.data.osArch;
-                    $scope.osName = res.data.osName;
-                    $scope.osVersion = res.data.osVersion;
+                    $scope.back.name = res.data.appName;
+                    $scope.back.version = res.data.appVersion;
+                    $scope.back.playVersion = res.data.playVersion;
+                    $scope.back.javaVersion = res.data.javaVersion;
+                    $scope.back.jvmName = res.data.jvmName;
+                    $scope.back.jvmVersion = res.data.jvmVersion;
+                    $scope.back.osTimezone = res.data.osTimezone;
+                    $scope.back.osCountry = res.data.osCountry;
+                    $scope.back.osArch = res.data.osArch;
+                    $scope.back.osName = res.data.osName;
+                    $scope.back.osVersion = res.data.osVersion;
 
                     $scope.pending = false;
                 }, function() {
@@ -36,8 +37,8 @@ angular.module('pocAngularFrontendApp')
 
             AppVersionService.getBackendVersion()
                 .then(function (res) {
-                    $scope.name = res.data.appName;
-                    $scope.version = res.data.appVersion;
+                    $scope.back.name = res.data.appName;
+                    $scope.back.version = res.data.appVersion;
 
                     $scope.pending = false;
                 }, function() {
@@ -45,5 +46,7 @@ angular.module('pocAngularFrontendApp')
                 }
             );
         }
+
+        $scope.front = AppVersionService.getFrontendVersion();
 
     });

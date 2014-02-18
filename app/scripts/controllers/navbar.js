@@ -12,8 +12,8 @@ angular.module('pocAngularFrontendApp')
         );
 
         $scope.userService = userService;
-        $scope.login = "admin";
-        $scope.pwd = "@dm1nPwd";
+        $scope.login = "demo-user";
+        $scope.pwd = "d3moNstr@tion";
         $scope.pendingLogin = false;
         $scope.pendingLogout = false;
 

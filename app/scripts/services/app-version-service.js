@@ -10,6 +10,12 @@ angular.module('pocAngularFrontendApp')
                 return $http.get(backendUrlService + '/version-full', {
                     withCredentials: true
                 });
+            },
+            getFrontendVersion: function() {
+                return {
+                    "name": "poc-angular-frontend",
+                    "version": "0.0.1"
+                }
             }
         };
     }
