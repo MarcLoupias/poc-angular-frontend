@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('pocAngularFrontendApp')
-    .controller('CrudCinemaCtrl', function ($scope, cinemaService, angularUiAlertService, angularUiConfirmModalService) {
+    .controller('CrudCinemaCtrl', function ($scope, cinemaService, countyService,
+                                            angularUiAlertService, angularUiConfirmModalService) {
 
         $scope.pending = false;
 
@@ -60,6 +61,9 @@ angular.module('pocAngularFrontendApp')
         };
 
         $scope.fnValidCode = function(entity) {
+            if(entity.county === '') {
+                entity.county = null;
+            }
             cinemaService.putCinema(entity).then(
                 function () {
                     angularUiAlertService.addSuccessAlert('Le cinéma ' + entity.name + ' a été mis à jour.');
@@ -107,6 +111,21 @@ angular.module('pocAngularFrontendApp')
         var cellSeatDisplay =
             '<div class="ngCellText" ng-class="col.colIndex()">{{row.getProperty(col.field)}}</div>';
 
+        $scope.fnQuery = function(arg) {
+            return countyService.getCountiesWithFilterByName(arg);
+        };
+
+        var cellCountyEditable =
+            '<cell-template-input-text-autocomplete model=COL_FIELD ' +
+                'queryfn="fnQuery(arg)" ' +
+                'unchanged-callback="fnUnchangedCode()" ' +
+                'valid-callback="fnValidCode(row.entity)" ' +
+                'invalid-callback="fnInvalidCode(row.entity)" ' +
+                '></cell-template-input-text-autocomplete>';
+
+        var cellCountyDisplay =
+            '<div class="ngCellText" ng-class="col.colIndex()">{{row.getProperty(col.field).name}}</div>';
+
         var cellTemplateActionBtnDelete =
             '<button type="button" class="btn btn-danger grid-action-button" ng-click="deleteCinema(row.entity)">' +
                 '<span class="glyphicon glyphicon-remove"></span>' +
@@ -115,6 +134,7 @@ angular.module('pocAngularFrontendApp')
         $scope.gridOptionsCrudCinema = {
             i18n: 'fr',
             data: 'myData',
+            /*rowHeight: 60,*/
             multiSelect: false,
             enableCellSelection: true,
             enableRowSelection: false,
@@ -133,6 +153,10 @@ angular.module('pocAngularFrontendApp')
                     field:'seat', displayName:'Nb. sièges', enableCellEdit:true,
                     cellTemplate: cellSeatDisplay, editableCellTemplate: cellSeatEditable
                 },
+                {
+                    field:'county', displayName:'Département', enableCellEdit:true,
+                    cellTemplate: cellCountyDisplay, editableCellTemplate: cellCountyEditable
+                },
                 {field:'actionBtnDelete', displayName:'', width: 40, cellTemplate:cellTemplateActionBtnDelete}
             ],
             enablePaging: true,
@@ -146,13 +170,37 @@ angular.module('pocAngularFrontendApp')
         $scope.search();
     })
 
-    .controller('CrudCinemaNewCinemaCtrl', function ($scope, cinemaService, angularUiAlertService,
-                                                     bootstrapFormValidationHelperService) {
+    .controller('CrudCinemaNewCinemaCtrl', function ($scope, cinemaService, countyService,
+                                                     angularUiAlertService, bootstrapFormValidationHelperService) {
+
+        $scope.cinema = {};
 
         $scope.bootstrapHelper = bootstrapFormValidationHelperService;
 
         $scope.resetCrudNewCinemaForm = function() {
             $scope.cinema = {};
+        };
+
+        $scope.getCounties = function(val) {
+
+            var promise = countyService.getCountiesWithFilterByName( val )
+                .then(function (res) {
+                    var countiesNames = [];
+
+                    for(var i in res.data) {
+                        countiesNames.push(res.data[i]);
+                    }
+
+                    return countiesNames;
+                }
+            );
+
+            promise.$$v = promise;
+            return promise;
+        };
+
+        $scope.onSelectCounty = function() {
+            $scope.cinema.county = $scope.selectedCounty;
         };
 
         $scope.save = function(cinema) {

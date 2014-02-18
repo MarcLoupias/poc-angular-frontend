@@ -15,8 +15,6 @@ angular.module('pocAngularFrontendApp')
                     var countiesNames = [];
 
                     for(var i in res.data) {
-
-                        //countiesNames.push(res.data[i].name + " (" + res.data[i].code + ")");
                         countiesNames.push(res.data[i]);
                     }
 
@@ -42,7 +40,5 @@ angular.module('pocAngularFrontendApp')
                     $scope.pending = false;
                 }
             );
-
-            /*alert($scope.selectedCounty.name + " (" + $scope.selectedCounty.code + ")");*/
         }
     });

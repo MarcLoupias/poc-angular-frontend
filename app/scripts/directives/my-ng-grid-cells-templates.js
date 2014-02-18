@@ -120,6 +120,65 @@ angular.module('pocAngularFrontendApp')
         };
     })
 
+    .directive('cellTemplateInputTextAutocomplete', function () {
+
+        var cellTemplate =
+            '<div><form name="myForm" class="simple-form" novalidate>' +
+                '<input type="text" ng-model="localModel" my-ng-input="localModel" ' +
+                'typeahead="elem as elem.name for elem in getTypeheadElemList($viewValue) | filter:$viewValue" ' +
+                'typeahead-min-length="3" ' +
+                'typeahead-loading="loading" ng-disabled="formPostPending"> ' +
+                '<img ng-show="loading" src="../images/loader.24x24-white.gif" alt="Loading" class="img-rounded">' +
+            '</form></div>';
+
+        return {
+            template: cellTemplate,
+            restrict: 'E',
+            scope: {
+                localModel: '=model',
+                queryfn: '&',
+                unchangedCallback: '&',
+                validCallback: '&',
+                invalidCallback: '&'
+            },
+            controller: function ($scope) {
+                $scope.$on('ngGridEventEndCellEdit_Unchanged', function () {
+                    console.log('ngGridEventEndCellEdit_Unchanged');
+                    $scope.unchangedCallback();
+                });
+
+                $scope.$on('ngGridEventEndCellEdit_Valid', function () {
+                    console.log('ngGridEventEndCellEdit_Valid');
+                    $scope.validCallback();
+                });
+
+                $scope.$on('ngGridEventEndCellEdit_Invalid', function () {
+                    console.log('ngGridEventEndCellEdit_Invalid');
+                    $scope.invalidCallback();
+                });
+
+                $scope.getTypeheadElemList = function(val) {
+
+                    /*var promise = countyService.getCountiesWithFilterByName( val )*/
+                    var promise = $scope.queryfn( {arg:val} )
+                        .then(function (res) {
+                            var typeheadElemList = [];
+
+                            for(var i in res.data) {
+                                typeheadElemList.push(res.data[i]);
+                            }
+
+                            return typeheadElemList;
+                        }
+                    );
+
+                    promise.$$v = promise;
+                    return promise;
+                };
+            }
+        };
+    })
+
     .directive('cellTemplateInputNumber', function () {
 
         var cellTemplate =

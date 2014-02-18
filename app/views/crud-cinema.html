@@ -45,6 +45,18 @@
                         </div>
                     </div>
 
+                    <div class="form-group has-success has-feedback">
+                        <label for="county" class="col-sm-2 control-label">Département</label>
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="selectedCounty" class="form-control" id="county" name="county"
+                                   placeholder="Département"
+                                   typeahead="county as county.name for county in getCounties($viewValue) | filter:$viewValue"
+                                   typeahead-min-length="3" typeahead-on-select="onSelectCounty()"
+                                   typeahead-loading="loadingCounties" ng-disabled="formPostPending">
+                            <img ng-show="loadingCounties" src="../images/loader.24x24-white.gif" alt="Loading" class="img-rounded">
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button type="submit" class="btn btn-success" ng-click="save(cinema)"
@@ -66,6 +78,8 @@
         </button>
 
     </div>
+
+    <!--<div class="row"> {{ myData | json }} </div>-->
 
     <div ng-if="pending" class="row">
         <loader></loader>
