@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392737235814" ignored="false" />
     <file path="/main.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392752907843" ignored="false" />
     <file path="/search.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390590833542" ignored="false" />
-    <file path="/build.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390810904676" ignored="false" />
+    <file path="/build.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815949742" ignored="false" />
     <file path="/search-county.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195938503" ignored="false" />
     <file path="/app-version.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392735080843" ignored="false" />
     <file path="/app-version-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392734830202" ignored="false" />
@@ -41,19 +41,19 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/credentials/CredentialsCheckerAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390846135549" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/credentials/CredentialsChecker.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390846135549" ignored="false" />
     <file path="/login-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135998546" ignored="false" />
-    <file path="/fragment.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186840574" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391104251896" ignored="false" />
-    <file path="/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391104251014" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392190306495" ignored="false" />
+    <file path="/fragment.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817215798" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810998420" ignored="false" />
+    <file path="/CorsCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810057532" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392809672302" ignored="false" />
     <file path="/routes" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186796704" ignored="false" />
     <file path="/search-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196014652" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392736181874" ignored="false" />
-    <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392736299079" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392819241198" ignored="false" />
+    <file path="/Global.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392818174342" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937834400" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937825112" ignored="false" />
     <file path="/CacheControlAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937816647" ignored="false" />
     <file path="/CacheControl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937833767" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391118361191" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392809554822" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/actions/httpHeaders/CORSimpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937892462" ignored="false" />
     <file path="/LoginCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1390937937465" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/session/SessionUtilsService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391009473354" ignored="false" />
@@ -70,8 +70,8 @@
     <file path="/LogoutCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391009707506" ignored="false" />
     <file path="/logout-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391010024035" ignored="false" />
     <file path="/user-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186096576" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186749122" ignored="false" />
-    <file path="/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186746893" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392818179623" ignored="false" />
+    <file path="/PocPlayRestBackendModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801578460" ignored="false" />
     <file path="/main.css" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392717553893" ignored="false" />
     <file path="/bower.json" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392103351620" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/models/Cinema.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392652332982" ignored="false" />
@@ -104,7 +104,7 @@
     <file path="/county-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392633898476" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/query/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117980580" ignored="false" />
     <file path="/QueryServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391117977262" ignored="false" />
-    <file path="/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391118361191" ignored="false" />
+    <file path="/CORSimplAction.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392809548608" ignored="false" />
     <file path="/search-cinema.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392195775226" ignored="false" />
     <file path="/search-cinema.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392196035302" ignored="false" />
     <file path="/cinema-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392651280368" ignored="false" />
@@ -115,14 +115,14 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/utils/rest/FilterParserServiceImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391710695199" ignored="false" />
     <file path="/FilterParserServiceImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391710631914" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/rest/FilterParserServiceException.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391699858959" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/build.sbt" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391701605956" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/build.sbt" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826621851" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391701709184" ignored="false" />
     <file path="/search-cinema-by-county.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392197408741" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/CinemaByCountyCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391796465690" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392017389096" ignored="false" />
     <file path="/QueryCinemaByCountyServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391794504794" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392021220535" ignored="false" />
-    <file path="/QueryCinemaByCountyServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392019529535" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826227645" ignored="false" />
+    <file path="/QueryCinemaByCountyServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826008049" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392017462980" ignored="false" />
     <file path="/QueryCinemaByCountyServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391794950963" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/cinema/QueryCinemaByCountyServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392017476239" ignored="false" />
@@ -131,13 +131,13 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/junit/reports/TESTS-TestSuites.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1391797018149" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/ServiceException.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392032194356" ignored="false" />
     <file path="/ServiceException.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028038486" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/create/CreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
-    <file path="/CreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392021368652" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/create/CreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826108570" ignored="false" />
+    <file path="/CreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826105062" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/create/CreateServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/delete/DeleteServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028396205" ignored="false" />
     <file path="/DeleteServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392028275459" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/delete/DeleteServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392021809593" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/update/UpdateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/update/UpdateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826121678" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/crud/update/UpdateServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022665331" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/check/UserCheckEmailServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/check/UserCheckEmailServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022878106" ignored="false" />
@@ -145,11 +145,11 @@
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/check/UserCheckLoginServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392022951237" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/create/UserCreateServiceJavaImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/create/UserCreateServiceJava.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392023026896" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/create/UserCreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392023225523" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/create/UserCreateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826174485" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/create/UserCreateServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392023225523" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/login/UserLoginServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/login/UserLoginServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826308596" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/login/UserLoginServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392023321134" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/update/UserUpdateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392026221180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/update/UserUpdateServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826346812" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/update/UserUpdateServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392023650886" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/services/crud/create/CreateServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392032194356" ignored="false" />
     <file path="/CreateServiceRestImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392027942945" ignored="false" />
@@ -163,7 +163,7 @@
     <file path="/error-alert.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392132346940" ignored="false" />
     <file path="/angular-ui-alert-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392135095245" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/infos/UserInfosServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186454369" ignored="false" />
-    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/infos/UserInfosServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187367116" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/user/infos/UserInfosServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826431371" ignored="false" />
     <file path="/UserInfosServiceRestImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186516883" ignored="false" />
     <file path="/UserInfosServiceRest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392186243271" ignored="false" />
     <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/controllers/UserInfosCtrl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392187367116" ignored="false" />
@@ -175,6 +175,60 @@
     <file path="/angular-ui-confirm-modal-service.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392650969796" ignored="false" />
     <file path="/crud-cinema.html" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392712911185" ignored="false" />
     <file path="/crud-cinema.js" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392716038228" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/configure.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392819077992" ignored="false" />
+    <file path="/configure.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810180828" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/UtilsModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392818179623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/EnvVarNames.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392800177329" ignored="false" />
+    <file path="/EnvVarNames.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801040407" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvVarNames.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801213132" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/ConfigLoaderService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801260610" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/ConfigLoaderServiceImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801270554" ignored="false" />
+    <file path="/ConfigLoaderServiceImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392802555320" ignored="false" />
+    <file path="/ConfigLoaderService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801697614" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810998419" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigServiceImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392805589584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigServiceException.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392801392224" ignored="false" />
+    <file path="/UtilsModule.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392818074356" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/SystemGetEnvWrapper.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392802594067" ignored="false" />
+    <file path="/SystemGetEnvWrapper.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392802424541" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/SystemGetEnvWrapperImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392802582838" ignored="false" />
+    <file path="/SystemGetEnvWrapperImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392802581265" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/test/org/myweb/utils/config/EnvConfigServiceImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392804088358" ignored="false" />
+    <file path="/EnvConfigServiceImplTest.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392804053226" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/mail/MailUtilsServiceJavamailImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392808676198" ignored="false" />
+    <file path="/MailUtilsServiceJavamailImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392808662428" ignored="false" />
+    <file path="/EnvConfigService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392809466458" ignored="false" />
+    <file path="/EnvConfigServiceImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392805589584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/mail/MailUtilsServiceSendgridImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392807607597" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/application.conf" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392807928011" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/scripts/heroku-deploy.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810213952" ignored="false" />
+    <file path="/heroku-deploy.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810213952" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/messages.en" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826092901" ignored="false" />
+    <file path="/messages.en" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826063594" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/conf/messages.fr" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392825857525" ignored="false" />
+    <file path="/messages.fr" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392810637008" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/scripts/heroku-deploy-sample.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392811338569" ignored="false" />
+    <file path="/heroku-deploy-sample.sh" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392811141425" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/test-reports/GetServiceRestImplTest.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815830054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/test-reports/QueryServiceRestImplTest.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815830054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/test-reports/GetServiceJavaImplTest.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815830054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/test-reports/CreateServiceRestImplTest.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815830054" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/target/test-reports/QueryServiceJavaImplTest.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392815830055" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/build.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392816059565" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigCheckerService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817907827" ignored="false" />
+    <file path="/EnvConfigCheckerService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817881029" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigCheckerServiceDevImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817994938" ignored="false" />
+    <file path="/EnvConfigCheckerServiceDevImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817991521" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/utils/config/EnvConfigCheckerServiceProdImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392819204783" ignored="false" />
+    <file path="/EnvConfigCheckerServiceProdImpl.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392817931891" ignored="false" />
+    <file path="/a.dummy" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826415832" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/app/org/myweb/services/version/VersionService.java" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392826431371" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/.idea/workspace.xml" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392828722655" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/CHANGELOG.md" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392828643574" ignored="false" />
+    <file path="/CHANGELOG.md" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392828643574" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/README.md" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392828000032" ignored="false" />
+    <file path="/README.md" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392827794121" ignored="false" />
+    <file path="$PROJECT_DIR$/../../poc-play-rest-backend/LICENSE" changelist="ca2336db-45c9-4b2d-b838-c2fcd644507b" time="1392828515394" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +297,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="317" column="114" selection-start="15853" selection-end="15853" vertical-scroll-proportion="0.8841699">
+            <state line="344" column="37" selection-start="17079" selection-end="17079" vertical-scroll-proportion="0.5405405">
               <folding />
             </state>
           </provider>
@@ -312,8 +366,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,6 +574,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,8 +592,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -559,6 +613,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -589,19 +656,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -615,13 +669,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -645,6 +692,13 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -661,7 +715,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1402" height="999" extended-state="6" />
+    <frame x="-1" y="26" width="1402" height="999" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -760,30 +814,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-cinema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="67" selection-start="6548" selection-end="6548" vertical-scroll-proportion="0.01842752">
-          <folding />
-        </state>
+        <state line="159" column="67" selection-start="6548" selection-end="6548" vertical-scroll-proportion="0.01842752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/user-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2027027">
-          <folding />
-        </state>
+        <state line="11" column="10" selection-start="305" selection-end="305" vertical-scroll-proportion="0.2027027" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/app-version.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="39" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.62653565">
-          <folding />
-        </state>
+        <state line="34" column="39" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.62653565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/app-version.html">
@@ -795,37 +841,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/app-version-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="675" selection-end="675" vertical-scroll-proportion="0.33169532">
-          <folding />
-        </state>
+        <state line="18" column="13" selection-start="675" selection-end="675" vertical-scroll-proportion="0.33169532" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/http-interceptor-rejection-filter-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.57125306">
-          <folding />
-        </state>
+        <state line="31" column="33" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.57125306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="60" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.6130221">
-          <folding />
-        </state>
+        <state line="50" column="60" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.6130221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="65" selection-start="567" selection-end="567" vertical-scroll-proportion="0.25798526">
-          <folding />
-        </state>
+        <state line="14" column="65" selection-start="567" selection-end="567" vertical-scroll-proportion="0.25798526" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/crud-county.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="56" selection-start="4017" selection-end="4017" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="101" column="56" selection-start="4017" selection-end="4017" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/crud-cinema.html">
@@ -845,29 +881,23 @@
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="77" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.24810126">
-          <folding>
-            <marker date="1392737568385" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="228" selection-end="228" vertical-scroll-proportion="0.15189873">
-          <folding />
-        </state>
+        <state line="8" column="51" selection-start="228" selection-end="228" vertical-scroll-proportion="0.15189873" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="114" selection-start="15853" selection-end="15853" vertical-scroll-proportion="0.8841699">
+        <state line="344" column="37" selection-start="17079" selection-end="17079" vertical-scroll-proportion="0.5405405">
           <folding />
         </state>
       </provider>
