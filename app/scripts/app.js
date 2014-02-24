@@ -43,15 +43,17 @@ angular.module('pocAngularFrontendApp', [
                 redirectTo: '/'
             });
 
-        $httpProvider.interceptors.push(function($q, angularUiAlertService, httpInterceptorRejectionFilterService) {
+        // it is MANDATORY to declare dependencies like this for the $httpProvider for the grunt build process
+        // if not, the dist output is malformed and angular will not work
+        $httpProvider.interceptors.push(
+            ['$q', 'angularUiAlertService', 'httpInterceptorRejectionFilterService',
+                function($q, angularUiAlertService, httpInterceptorRejectionFilterService) {
             return {
                 'requestError': function(rejection) {
                     alert('requestError -> rejection=' + JSON.stringify(rejection));
                     return $q.reject(rejection);
                 },
                 'responseError': function(rejection) {
-                    //alert('responseError -> rejection=' + JSON.stringify(rejection));
-
                     if(httpInterceptorRejectionFilterService.filter(rejection, '/user-infos', 'GET')){
                         return $q.reject(rejection);
                     }
@@ -61,5 +63,5 @@ angular.module('pocAngularFrontendApp', [
                     return $q.reject(rejection);
                 }
             };
-        });
+        }]);
     });

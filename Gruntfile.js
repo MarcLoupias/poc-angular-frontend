@@ -158,7 +158,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            //'<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -186,11 +186,12 @@ module.exports = function (grunt) {
 
     // The following *-min tasks produce minified files in the dist folder
     imagemin: {
+        options: { cache: false },
       dist: {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: '{,*/}*.{png,jpg,jpeg,gif,ico}',
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -253,10 +254,15 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
+            'Procfile',
+            'web.js',
             '*.html',
             'views/{,*/}*.html',
+            'scripts/**/*',
+            'styles/**/*',
             'bower_components/**/*',
-            'images/{,*/}*.{webp}',
+            //'images/{,*/}*.{webp}',
+            'images/*',
             'fonts/*'
           ]
         }, {
@@ -283,9 +289,9 @@ module.exports = function (grunt) {
         'copy:styles'
       ],
       dist: [
-        'copy:styles',
+        'copy:styles'/*,
         'imagemin',
-        'svgmin'
+        'svgmin'*/
       ]
     },
 
@@ -356,18 +362,18 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'bower-install',
-    'useminPrepare',
+    //'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
-    'concat',
-    'ngmin',
+    //'concat',
+    //'ngmin',
     'copy:dist',
-    'cdnify',
-    'cssmin',
-    'uglify',
-    'rev',
-    'usemin',
-    'htmlmin'
+    'cdnify'
+    //'cssmin',
+    //'uglify',
+    //'rev',
+    //'usemin',
+    //'htmlmin'
   ]);
 
   grunt.registerTask('default', [
