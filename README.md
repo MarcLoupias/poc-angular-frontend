@@ -84,4 +84,5 @@ TODO
 * need to use grunt to run deployment step 1 & 2.
 * need to fix minification issues in regular generator-angular grunt tasks.
 * need i18n english
+* need real unit test
 * ...
