@@ -2,9 +2,9 @@
 poc-angular-frontend
 ====================
 
-[AngularJs] (http://www.playframework.com/) version used is 1.2.6
-
 [![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://wtfpl.net)
+
+[Demo version available](http://poc-angular-frontend.herokuapp.com/)
 
 What is this ?
 --------------
@@ -66,5 +66,22 @@ Heroku Deployment
 * [heroku.com] (https://www.heroku.com/)
 * We assume that you have installed the [Heroku Toolbelt] (https://toolbelt.heroku.com/).
 
-Go to your `dist` directory
+Notices that heroku needs a git repo to be pushed to him. We don't want to push the whole source code but only the `dist`
+folder. So the structure is :
+- The main project folder contains the whole source code and dev environment. This repo is pushed to github. For this
+repo the `dist` folder is simply ignored.
+- The generated project folder (`dist`) with his own repo to be pushed to heroku.
 
+1. Change manually `backend-url-service.js` constant to your prod backend url.
+2. Change manually `app-version-service.js` value for frontend version number.
+2. run `grunt build`.
+3. go to your `dist` directory.
+4. commit the new build.
+5. run `git push heroku master`.
+
+TODO
+----
+* need to use grunt to run deployment step 1 & 2.
+* need to fix minification issues in regular generator-angular grunt tasks.
+* need i18n english
+* ...
